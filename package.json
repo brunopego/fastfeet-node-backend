@@ -5,8 +5,13 @@
   "repository": "https://github.com/brunopego/fastfeet-node-backend.git",
   "author": "Bruno Lacerda <brunolcpg@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
   "dependencies": {
     "express": "^4.17.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
 }
