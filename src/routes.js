@@ -15,5 +15,6 @@ routes.use(authMiddleware); // The routes bellow will use this middleware
 
 routes.put('/users', UserController.update);
 routes.post('/recipients', RecipientController.store);
+routes.put('/recipients/:id', RecipientController.update);
 
 export default routes;
